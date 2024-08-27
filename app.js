@@ -9,7 +9,7 @@ const dotenv=require('dotenv')
 dotenv.config();
 
 const secretKey = process.env.SECRET_KEY || 'your-fallback-secret-key';
-const port = process.env.PORT || 3001;
+const port = process.env.PORT || 3000;
 
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
